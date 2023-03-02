@@ -22,6 +22,7 @@ class MainActivity : AppCompatActivity() {
         val binding = ActivityMainBinding.inflate(layoutInflater).also { binding ->
             setContentView(binding.root)
             binding.pager.adapter = adapter
+            binding.pager.isUserInputEnabled = false // don't allow user to swipe between fragments
 
             sharedViewModel.state.observe(this) {
                 binding.pager.currentItem = it.index
