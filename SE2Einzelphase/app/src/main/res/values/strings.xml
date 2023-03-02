@@ -7,4 +7,9 @@
     <string name="unknown_error">Sorry, there is an unexpected error.</string>
     <string name="input_invalid_error">Registration number needs to be exact 8 characters long</string>
     <string name="server_response_success">Server Response: %s</string>
+    <string name="server_response_title">Server Response:</string>
+    <string name="convert_prime">Filter prime numbers</string>
+    <string name="prime_numbers_title">Prime number inside result:</string>
+    <string name="no_prime_in_result">No prime decimals inside result</string>
+    <string name="restart_app_flow">Restart input flow</string>
 </resources>
