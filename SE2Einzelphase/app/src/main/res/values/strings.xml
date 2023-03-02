@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">SE2Einzelphase</string>
+    <string name="enter_registration_number">Enter registration number</string>
+    <string name="send_data">Send data</string>
+    <string name="server_response_empty">Send a Request to receive a Response.</string>
+    <string name="network_error">Oops, there is a connection issue.</string>
+    <string name="unknown_error">Sorry, there is an unexpected error.</string>
+    <string name="input_invalid_error">Registration number needs to be exact 8 characters long</string>
+    <string name="server_response_success">Server Response: %s</string>
 </resources>
